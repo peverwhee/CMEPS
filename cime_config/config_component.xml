@@ -1243,6 +1243,14 @@
     <desc>grid mask - DO NOT EDIT (for experts only)</desc>
   </entry>
 
+  <entry id="PTS_MODE">
+    <type>logical</type>
+    <default_value>FALSE</default_value>
+    <group>run_domain</group>
+    <file>env_run.xml</file>
+    <desc>If TRUE, enables you to run the model using global datasets, but just picking a single point from those datasets and operating on it</desc>
+  </entry>
+
   <entry id="PTS_LAT">
     <type>real</type>
     <default_value>-999.99</default_value>
